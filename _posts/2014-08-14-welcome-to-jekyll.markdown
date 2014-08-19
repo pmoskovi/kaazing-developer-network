@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Welcome to Jekyll!"
+title:  "Welcome Vanessa - this is Jekyll!"
 date:   2014-08-14 22:21:30
 categories: jekyll update
 ---
