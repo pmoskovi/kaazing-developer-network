@@ -5,6 +5,20 @@
  Support : support@bismillahlab.web.id;
 */
 
+.quickstart {
+	background: white;
+	font-size: 12px;
+	text-align: left;
+}
+
+::selection {
+	background: yellow;
+}
+
+.technologies {
+	background-color: #3c3;
+}
+
 /*	GENERAL
 ========================================*/
 
@@ -28,8 +42,9 @@ body{
 }
 
 ::selection {
-	background: #1c222b;
-	color: #fff;
+	/*background: #1c222b;*/
+	background: #3c3;
+	color: black;
 	text-shadow: none;
 }
 
@@ -2966,7 +2981,7 @@ a:hover{
 ==============================================*/
 
 footer{
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	background-color: #2f2f2f;
 }
 

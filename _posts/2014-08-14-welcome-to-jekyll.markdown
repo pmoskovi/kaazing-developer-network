@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title:  "Welcome Vanessa - this is Jekyll!"
 date:   2014-08-14 22:21:30
 categories: jekyll update
+image: http://wallet.kaazing.com/landing/resources/images/cc.png
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

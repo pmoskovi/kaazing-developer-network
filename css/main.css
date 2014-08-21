@@ -18,8 +18,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #33cc33; text-decoration: none; }
-a:visited { color: #33cc33; }
+/*a         { color: #33cc33; text-decoration: none; }
+a:visited { color: #33cc33; }*/
+a         { color: #34495e; text-decoration: none; }
+a:visited { color: #34495e; }
 a:hover   { color: #000; text-decoration: underline; }
 
 /* Utility */
@@ -136,7 +138,7 @@ a:hover   { color: #000; text-decoration: underline; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0;
+  padding-top: 30px;
   background-color: #fff;
 }
 
@@ -154,7 +156,8 @@ a:hover   { color: #000; text-decoration: underline; }
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
-  color: #33cc33;
+  /*color: #33cc33;*/
+  color: #34495e;
 }
 
 .posts .post-date {
@@ -182,7 +185,10 @@ a:hover   { color: #000; text-decoration: underline; }
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content {
+  margin: 0 0 30px;
+  text-align: left;
+}
 
 .post-content > * { margin: 20px 0; }
 
