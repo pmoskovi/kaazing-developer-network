@@ -2,7 +2,7 @@
 layout: post
 title:  "Greetings, Kevin!"
 date:   2014-08-18 4:31:00pm
-categories: jekyll update
+categories: jekyll update javascript
 image: https://s3-us-west-2.amazonaws.com/www.kaazing.com/wordpress/wp-content/uploads/2013/07/rapid_devlopment.png
 ---
 

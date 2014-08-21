@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- <div class="blank-page"> -->
+                          <div class="home">
+                            <p><div class="btn-toolbar"></div></p>
+                            <ul class="posts">
+                              {% for post in site.posts %}
+                                {% if post.categories contains 'javascript' %}
+                                <li class="col-sm-4">
+                                  <!-- <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+                                  <a href="{{ post.url | prepend: site.url }}"><img src="{{post.image}}" height="160"></img>
+                                    <p><div class="btn-toolbar"></div></p>
+                                  <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+                                </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+
+                            <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+                          </div>
+                        <!-- </div> -->
+                    </div>
+
+                </div>

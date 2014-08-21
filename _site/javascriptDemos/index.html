@@ -25,10 +25,10 @@
 <!-- <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Greetings, Kevin!</title>
+    <title>Your awesome title</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <link rel="canonical" href="http://localhost:4000/jekyll/update/2014/08/18/hello-kevin/"> -->
+    <link rel="canonical" href="http://localhost:4000/javascriptDemos/"> -->
 
     <!-- Custom CSS -->
     <!-- <link rel="stylesheet" href="/css/main.css">
@@ -466,6 +466,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -477,49 +479,42 @@
 <div class="content">
     <div class="page-content text-center">
       <!-- <div class="wrap"> -->
-          <div class="wrap">
-  <div class="post">
+                          <div class="row">
+                    <div class="col-lg-12">
+                        <!-- <div class="blank-page"> -->
+                          <div class="home">
+                            <p><div class="btn-toolbar"></div></p>
+                            <ul class="posts">
+                              
+                                
+                                <li class="col-sm-4">
+                                  <!-- <span class="post-date">Aug 18, 2014</span> -->
+                                  <a href="http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-kevin/"><img src="https://s3-us-west-2.amazonaws.com/www.kaazing.com/wordpress/wp-content/uploads/2013/07/rapid_devlopment.png" height="160"></img>
+                                    <p><div class="btn-toolbar"></div></p>
+                                  <a class="post-link" href="http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-kevin/">Greetings, Kevin!</a>
+                                </li>
+                                
+                              
+                                
+                                <li class="col-sm-4">
+                                  <!-- <span class="post-date">Aug 18, 2014</span> -->
+                                  <a href="http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-jonas/"><img src="http://wallet.kaazing.com/landing/resources/images/demos.png" height="160"></img>
+                                    <p><div class="btn-toolbar"></div></p>
+                                  <a class="post-link" href="http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-jonas/">Greetings, Jonas!</a>
+                                </li>
+                                
+                              
+                                
+                              
+                            </ul>
 
-    <header class="post-header">
-      <h1>Greetings, Kevin!</h1>
-    </header>
+                            <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
 
-    <article class="post-content">
-        <p>Hey Kevin,</p>
+                          </div>
+                        <!-- </div> -->
+                    </div>
 
-<p>This one is for you - hope you find it useful!</p>
-
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cm">/*!</span>
-<span class="cm"> * GMaps.js v0.2.30</span>
-<span class="cm"> * http://hpneo.github.com/gmaps/</span>
-<span class="cm"> *</span>
-<span class="cm"> * Copyright 2012, Gustavo Leon</span>
-<span class="cm"> * Released under the MIT License.</span>
-<span class="cm"> */</span>
-
-<span class="k">if</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">google</span> <span class="o">&amp;&amp;</span> <span class="nb">window</span><span class="p">.</span><span class="nx">google</span><span class="p">.</span><span class="nx">maps</span><span class="p">){</span>
-
-  <span class="kd">var</span> <span class="nx">GMaps</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">global</span><span class="p">)</span> <span class="p">{</span>
-    <span class="s2">&quot;use strict&quot;</span><span class="p">;</span>
-
-    <span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nb">document</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">getElementById</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">id</span><span class="p">,</span> <span class="nx">context</span><span class="p">)</span> <span class="p">{</span>
-      <span class="kd">var</span> <span class="nx">ele</span>
-      <span class="k">if</span><span class="p">(</span><span class="s1">&#39;jQuery&#39;</span> <span class="k">in</span> <span class="nx">global</span> <span class="o">&amp;&amp;</span> <span class="nx">context</span><span class="p">){</span>
-        <span class="nx">ele</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="o">+</span><span class="nx">id</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">),</span> <span class="nx">context</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-      <span class="p">}</span><span class="k">else</span><span class="p">{</span>
-        <span class="nx">ele</span> <span class="o">=</span> <span class="nx">doc</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">));</span>
-      <span class="p">};</span>
-      <span class="k">return</span> <span class="nx">ele</span><span class="p">;</span>
-    <span class="p">};</span></code></pre></div>
-
-<p>Enjoy the rest of your day!</p>
-
-
-    </article>
-
-  </div>
-</div>
+                </div>
 
       <!-- </div> -->
     </div>

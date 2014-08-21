@@ -2,7 +2,7 @@
 layout: post
 title:  "Greetings, Jonas!"
 date:   2014-08-18 4:31:00pm
-categories: jekyll update
+categories: jekyll update javascript
 image: http://wallet.kaazing.com/landing/resources/images/demos.png
 ---
 
