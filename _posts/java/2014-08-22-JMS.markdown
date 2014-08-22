@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "JMS Demo"
+date:   2014-08-22 16:15:00
+categories: java javascript demo ugly
+image: /img/demos/racer.png
+---
+
+Real-Time Interactions with Physical Objects Over the Web
+
+Control a truck remotely using your smartphone from continents away. The real time connectivity is established using Raspberry Pi, a credit card sized computer. All you need is a mobile Web browser.

@@ -17,6 +17,7 @@
 
 .technologies {
 	background-color: #3c3;
+	background-image: url('/img/parrot.jpg');
 }
 
 /*	GENERAL
@@ -450,7 +451,8 @@ a:hover{
 }
 
 #header .navbar-toggle{
-	background-color: #2980b9;
+	/*background-color: #2980b9;*/
+	background-color: #2f2f2f;
 	color: #ecf0f1;
 }
 
@@ -3010,6 +3012,10 @@ footer span.divider-hr{
 
 footer .content-widget-footer{
 	margin-top: 30px;
+	color: #7f8c8d;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 10pt;
 }
 
 footer .content-widget-footer .icon-footer{

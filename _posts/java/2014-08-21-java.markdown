@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Everything about JAVA"
+date:   2014-08-21 16:15:00
+categories: java javascript demo
+image: https://java.net/attachments/wiki_images/kjc/java-duke-logo.png
+---
+
+And here's everything you ever wanted to know about Java.
+
+{% highlight java linenos %}
+/**
+ * The HelloWorldApp class implements an application that
+ * simply displays "Hello World!" to the standard output.
+ */
+class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); //Display the string.
+    }
+}
+{% endhighlight %}

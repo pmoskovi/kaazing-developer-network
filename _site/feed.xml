@@ -5,9 +5,58 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Aug 2014 15:33:40 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Aug 2014 15:33:40 -0700</lastBuildDate>
+    <pubDate>Thu, 21 Aug 2014 18:30:53 -0700</pubDate>
+    <lastBuildDate>Thu, 21 Aug 2014 18:30:53 -0700</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>JMS Demo</title>
+        <description>&lt;p&gt;Real-Time Interactions with Physical Objects Over the Web&lt;/p&gt;
+
+&lt;p&gt;Control a truck remotely using your smartphone from continents away. The real time connectivity is established using Raspberry Pi, a credit card sized computer. All you need is a mobile Web browser.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Aug 2014 09:15:00 -0700</pubDate>
+        <link>http://localhost:4000/java/javascript/demo/ugly/2014/08/22/JMS/</link>
+        <guid isPermaLink="true">http://localhost:4000/java/javascript/demo/ugly/2014/08/22/JMS/</guid>
+        
+        
+        <category>java</category>
+        
+        <category>javascript</category>
+        
+        <category>demo</category>
+        
+        <category>ugly</category>
+        
+      </item>
+    
+      <item>
+        <title>Everything about JAVA</title>
+        <description>&lt;p&gt;And here’s everything you ever wanted to know about Java.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt; * The HelloWorldApp class implements an application that&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt; * simply displays &amp;quot;Hello World!&amp;quot; to the standard output.&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt; */&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorldApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;     &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Display the string.&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 21 Aug 2014 09:15:00 -0700</pubDate>
+        <link>http://localhost:4000/java/javascript/demo/2014/08/21/java/</link>
+        <guid isPermaLink="true">http://localhost:4000/java/javascript/demo/2014/08/21/java/</guid>
+        
+        
+        <category>java</category>
+        
+        <category>javascript</category>
+        
+        <category>demo</category>
+        
+      </item>
     
       <item>
         <title>Greetings, Kevin!</title>

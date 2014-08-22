@@ -1,0 +1,32 @@
+{% for post in site.posts %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  {% if thecycle == 'odd' %}
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 content">
+        <div class="home">
+          <ul class="posts">
+              <li>
+                <a href="{{ post.url | prepend: site.url }}"><img src="{{post.image}}" height="160"></img>
+                  <p><div class="btn-toolbar"></div></p>
+                <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+
+  {% elsif thecycle == 'even' %}
+      <div class="col-lg-6 col-md-6 col-sm-12 content">
+        <div class="home">
+          <ul class="posts">
+              <li>
+                <!-- <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+                <a href="{{ post.url | prepend: site.url }}"><img src="{{post.image}}" height="160"></img>
+                  <p><div class="btn-toolbar"></div></p>
+                <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
