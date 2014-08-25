@@ -11,14 +11,27 @@
 	margin-bottom: 60px;
 }
 
-.logos {
-	vertical-align: bottom;
-}
+.grid-header {
+	background: #9dd972;
+};
 
 .quickstart {
 	background: white;
 	font-size: 12px;
 	text-align: left;
+}
+
+.table-left {
+	text-align: left;
+}
+
+.table-header-bg {
+	background: #9dd972;
+}
+
+.grid-margins {
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
 ::selection {
