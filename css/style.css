@@ -5,6 +5,16 @@
  Support : support@bismillahlab.web.id;
 */
 
+.tagline {
+	color: white;
+	text-align: center;
+	margin-bottom: 60px
+}
+
+.logos {
+	vertical-align: bottom;
+}
+
 .quickstart {
 	background: white;
 	font-size: 12px;
@@ -447,7 +457,7 @@ a:hover{
 #header .overlay{
 	background: rgba(68, 214, 44, 0.6);
 	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-bottom: 5px;
 }
 
 #header .navbar-toggle{
