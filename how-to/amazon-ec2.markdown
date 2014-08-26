@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: howto
 title:  "Amazon EC2"
 date:   2014-08-26 9:42:00am
-categories: getting started amazon ec2
+categories: howto
 ---
+
 # Amazon EC2 Guide
 
 Kaazing provides you the flexibility to deploy in whatever configuration you may have. There is a free developer edition to help you get started with no installation or configuration. Kaazing Gateway is available to download and install it on your local system, or behind your firewall. And you can even deploy your own instance to Amazon EC2. This guide will get you setup on Amazon EC2.
