@@ -26,7 +26,25 @@
 }
 
 .table-header-bg {
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		border:solid 3px #ccc;
+		background: #666;
+		color: white;
+		padding:8px;
+		text-align:center;
+}
+
+.rounded {
+  	-moz-border-radius: 8px;
+ 		border-radius: 8px;
+    border:solid 3px #9dd972;
+		background: #ccc;
+    padding:4px;
+}
+.rounded:hover {
 	background: #9dd972;
+	/*color: gray;*/
 }
 
 .grid-margins {
