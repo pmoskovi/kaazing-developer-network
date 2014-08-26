@@ -4,6 +4,13 @@
 
         <!-- start:footer -->
         <footer>
+          <!-- {% for page in site.pages %}
+            {% if page.categories contains 'products' %}
+              <div class="item">
+                <h3><a href="{{page.link}}">{{page.title}}</a></h3>
+              </div>
+            {% endif %}
+          {% endfor %} -->
             <div class="container">
               <p><div class="btn-toolbar"></div></p>
               <div class="row">
@@ -19,7 +26,13 @@
                             </div>
                             <div class="col-sm-8">
                                 <p>
-                                  OVERVIEW
+                                  {% for page in site.pages %}
+                                    {% if page.categories contains 'products' %}
+                                      <a href="{{page.link}}" style="text-transform: uppercase;">{{page.title}}</a>
+                                      <br>
+                                    {% endif %}
+                                  {% endfor %}
+                                  <!-- OVERVIEW
                                   <br>
                                   PRODUCT EDITIONS
                                   <br>
@@ -29,7 +42,7 @@
                                   <br>
                                   DEMOS
                                   <br>
-                                  WEBSOCKET
+                                  WEBSOCKET -->
                                 </p>
                             </div>
                         </div>
