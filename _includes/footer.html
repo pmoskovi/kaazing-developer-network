@@ -28,21 +28,10 @@
                                 <p>
                                   {% for page in site.pages %}
                                     {% if page.categories contains 'products' %}
-                                      <a href="{{page.link}}" style="text-transform: uppercase;">{{page.title}}</a>
+                                      <a href="{{page.link}}" class="footer-link">{{page.title}}</a>
                                       <br>
                                     {% endif %}
                                   {% endfor %}
-                                  <!-- OVERVIEW
-                                  <br>
-                                  PRODUCT EDITIONS
-                                  <br>
-                                  BENEFITS &amp; ROI
-                                  <br>
-                                  DEPLOYMENT OPTIONS
-                                  <br>
-                                  DEMOS
-                                  <br>
-                                  WEBSOCKET -->
                                 </p>
                             </div>
                         </div>
@@ -59,7 +48,15 @@
                                 </div>
                             </div>
                             <div class="col-sm-8">
-                                <p>
+                              <p>
+                                {% for page in site.pages %}
+                                  {% if page.categories contains 'industries' %}
+                                    <a href="{{page.link}}" class="footer-link">{{page.title}}</a>
+                                    <br>
+                                  {% endif %}
+                                {% endfor %}
+                              </p>
+                                <!-- <p>
                                   FINANCIAL SERVICES
                                   <br>
                                   ENERGY &amp; UTILITIES
@@ -81,7 +78,7 @@
                                   RETAIL
                                   <br>
                                   HEALTHCARE
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>

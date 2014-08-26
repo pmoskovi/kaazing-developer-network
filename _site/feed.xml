@@ -3,10 +3,10 @@
   <channel>
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://pmoskovi.github.io/kaazing-developer-network/</link>
-    <atom:link href="http://pmoskovi.github.io/kaazing-developer-network/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Aug 2014 13:12:04 -0700</pubDate>
-    <lastBuildDate>Tue, 26 Aug 2014 13:12:04 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 26 Aug 2014 13:44:28 -0700</pubDate>
+    <lastBuildDate>Tue, 26 Aug 2014 13:44:28 -0700</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -15,8 +15,8 @@
 
 </description>
         <pubDate>Fri, 22 Aug 2014 14:08:00 -0700</pubDate>
-        <link>http://pmoskovi.github.io/kaazing-developer-network/javascript/jekyll/update/2014/08/22/hello-peter/</link>
-        <guid isPermaLink="true">http://pmoskovi.github.io/kaazing-developer-network/javascript/jekyll/update/2014/08/22/hello-peter/</guid>
+        <link>http://localhost:4000/javascript/jekyll/update/2014/08/22/hello-peter/</link>
+        <guid isPermaLink="true">http://localhost:4000/javascript/jekyll/update/2014/08/22/hello-peter/</guid>
         
         
         <category>javascript</category>
@@ -34,8 +34,8 @@
 &lt;p&gt;Control a truck remotely using your smartphone from continents away. The real time connectivity is established using Raspberry Pi, a credit card sized computer. All you need is a mobile Web browser.&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Aug 2014 09:15:00 -0700</pubDate>
-        <link>http://pmoskovi.github.io/kaazing-developer-network/java/javascript/demo/ugly/2014/08/22/JMS/</link>
-        <guid isPermaLink="true">http://pmoskovi.github.io/kaazing-developer-network/java/javascript/demo/ugly/2014/08/22/JMS/</guid>
+        <link>http://localhost:4000/java/javascript/demo/ugly/2014/08/22/JMS/</link>
+        <guid isPermaLink="true">http://localhost:4000/java/javascript/demo/ugly/2014/08/22/JMS/</guid>
         
         
         <category>java</category>
@@ -64,8 +64,8 @@
 
 </description>
         <pubDate>Thu, 21 Aug 2014 09:15:00 -0700</pubDate>
-        <link>http://pmoskovi.github.io/kaazing-developer-network/java/javascript/demo/2014/08/21/java/</link>
-        <guid isPermaLink="true">http://pmoskovi.github.io/kaazing-developer-network/java/javascript/demo/2014/08/21/java/</guid>
+        <link>http://localhost:4000/java/javascript/demo/2014/08/21/java/</link>
+        <guid isPermaLink="true">http://localhost:4000/java/javascript/demo/2014/08/21/java/</guid>
         
         
         <category>java</category>
@@ -110,8 +110,8 @@
 
 </description>
         <pubDate>Mon, 18 Aug 2014 16:31:00 -0700</pubDate>
-        <link>http://pmoskovi.github.io/kaazing-developer-network/jekyll/update/javascript/2014/08/18/hello-kevin/</link>
-        <guid isPermaLink="true">http://pmoskovi.github.io/kaazing-developer-network/jekyll/update/javascript/2014/08/18/hello-kevin/</guid>
+        <link>http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-kevin/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-kevin/</guid>
         
         
         <category>jekyll</category>
@@ -156,8 +156,8 @@
 
 </description>
         <pubDate>Mon, 18 Aug 2014 16:31:00 -0700</pubDate>
-        <link>http://pmoskovi.github.io/kaazing-developer-network/jekyll/update/javascript/2014/08/18/hello-jonas/</link>
-        <guid isPermaLink="true">http://pmoskovi.github.io/kaazing-developer-network/jekyll/update/javascript/2014/08/18/hello-jonas/</guid>
+        <link>http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-jonas/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/javascript/2014/08/18/hello-jonas/</guid>
         
         
         <category>jekyll</category>
@@ -185,8 +185,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Thu, 14 Aug 2014 15:21:30 -0700</pubDate>
-        <link>http://pmoskovi.github.io/kaazing-developer-network/jekyll/update/2014/08/14/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://pmoskovi.github.io/kaazing-developer-network/jekyll/update/2014/08/14/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/jekyll/update/2014/08/14/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2014/08/14/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

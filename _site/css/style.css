@@ -25,6 +25,14 @@
 	text-align: left;
 }
 
+a.footer-link:link {
+	text-transform: uppercase;
+}
+
+a.footer-link:hover  {
+  text-decoration: none;
+}
+
 .table-header-bg {
 		-moz-border-radius: 8px;
 		border-radius: 8px;
