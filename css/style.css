@@ -50,9 +50,18 @@ a.footer-link:hover  {
 		background: #ccc;
     padding:4px;
 }
+
 .rounded:hover {
 	background: #9dd972;
-	/*color: gray;*/
+	color: gray;
+}
+
+.grid-link:hover {
+	text-decoration: none;
+}
+
+.grid-link:visited {
+	color:black;
 }
 
 .grid-margins {
