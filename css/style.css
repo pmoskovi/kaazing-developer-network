@@ -69,6 +69,17 @@ a.footer-link:hover  {
 	margin-bottom: 30px;
 }
 
+.navbar-thin {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	color: yellow;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #aaa;
+}
+
 ::selection {
 	background: yellow;
 }
