@@ -94,23 +94,14 @@
                                 </div>
                             </div>
                             <div class="col-sm-8">
-                                <p>
-                                  OVERVIEW
-                                  <br>
-                                  PRESS RELEASES &amp; NEWS
-                                  <br>
-                                  EVENTS
-                                  <br>
-                                  MANAGEMENT TEAM
-                                  <br>
-                                  BOARD OF DIRECTORS
-                                  <br>
-                                  ADVISORY BOARD
-                                  <br>
-                                  RESOURCE CENTER
-                                  <br>
-                                  CAREERS
-                                </p>
+                              <p>
+                                {% for page in site.pages %}
+                                  {% if page.categories contains 'aboutus' %}
+                                    <a href="{{page.link}}" class="footer-link">{{page.title}}</a>
+                                    <br>
+                                  {% endif %}
+                                {% endfor %}
+                              </p>
                             </div>
                         </div>
                     </div>

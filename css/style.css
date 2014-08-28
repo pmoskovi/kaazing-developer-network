@@ -27,6 +27,12 @@
 
 a.footer-link:link {
 	text-transform: uppercase;
+	color: #7f8c8d;
+}
+
+a.footer-link:visited {
+	text-transform: uppercase;
+	color: #7f8c8d;
 }
 
 a.footer-link:hover  {
