@@ -56,29 +56,6 @@
                                   {% endif %}
                                 {% endfor %}
                               </p>
-                                <!-- <p>
-                                  FINANCIAL SERVICES
-                                  <br>
-                                  ENERGY &amp; UTILITIES
-                                  <br>
-                                  TECHNOLOGY
-                                  <br>
-                                  MEDIA &amp; ENTERTAINMENT
-                                  <br>
-                                  TELECOM
-                                  <br>
-                                  TRAVEL &amp; TRANSPORTAION
-                                  <br>
-                                  GAMBLING &amp; BETTING
-                                  <br>
-                                  LOGISTICS &amp; SHIPPING
-                                  <br>
-                                  ONLINE GAMING
-                                  <br>
-                                  RETAIL
-                                  <br>
-                                  HEALTHCARE
-                                </p> -->
                             </div>
                         </div>
                     </div>
@@ -120,23 +97,12 @@
                             </div>
                             <div class="col-sm-8">
                               <p>
-                                TRADING &amp; TRANSACTIONS
-                                <br>
-                                DATA MONITORING
-                                <br>
-                                COLLABORATION &amp; CHAT
-                                <br>
-                                ENTERPRISE INTEGRATION
-                                <br>
-                                NOVPN SOLUTION
-                                <br>
-                                MOBILE NOTIFICATIONS
-                                <br>
-                                BETTING, BIDDING &amp; VOTING
-                                <br>
-                                SECOND SCREEN
-                                <br>
-                                MACHINE TO MACHINE
+                                {% for page in site.pages %}
+                                  {% if page.categories contains 'solutions' %}
+                                    <a href="{{page.link}}" class="footer-link">{{page.title}}</a>
+                                    <br>
+                                  {% endif %}
+                                {% endfor %}
                               </p>
                             </div>
                         </div>
@@ -154,9 +120,12 @@
                             </div>
                             <div class="col-sm-8">
                               <p>
-                                VIDEO TESTIMONIALS
-                                <br>
-                                CUSTOMER CASE STUDIES
+                                {% for page in site.pages %}
+                                  {% if page.categories contains 'customers' %}
+                                    <a href="{{page.link}}" class="footer-link">{{page.title}}</a>
+                                    <br>
+                                  {% endif %}
+                                {% endfor %}
                               </p>
                             </div>
                         </div>
