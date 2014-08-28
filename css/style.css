@@ -31,6 +31,7 @@ a.footer-link:link {
 
 a.footer-link:hover  {
   text-decoration: none;
+	color: white;
 }
 
 .table-header-bg {
