@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<!-- start:main -->
+<div class="container">
+    <div id="main">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">
+                    KAAZING Demos
+                </h2>
+            </div>
+        </div>
+
+        {% for page in site.pages %}
+          {% if page.categories contains 'demo' %}
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if thecycle == 'odd' %}
+
+                <!-- start:real estates list -->
+                <div class="row" id="property-list">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <a href="{{page.url}}"><img src="{{site.url}}/img/demos/{{page.screenshot-img-prefix}}1.{{page.screenshot-img-extension}}" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="title-real-estates">
+                                            <strong><a href="#">{{page.title}}</a></strong> <span class="pull-right">*****</span>
+                                        </h4>
+                                        <hr>
+                                        <p>{{page.section1-title}}</p>
+                                        <p><span class="label label-danger">JavaScript</span> | <span class="label label-danger">JMS</span> | <span class="label label-danger">iOS</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                    {% if thecycle == 'even' %}
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <a href="{{page.url}}"><img src="{{site.url}}/img/demos/{{page.screenshot-img-prefix}}1.{{page.screenshot-img-extension}}" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="title-real-estates">
+                                            <strong><a href="#">{{page.title}}</a></strong> <span class="pull-right">*****</span>
+                                        </h4>
+                                        <hr>
+                                        <p>{{page.section1-title}}</p>
+                                        <p><span class="label label-danger">Java</span> | <span class="label label-danger">JMS</span> | <span class="label label-danger">HTML5</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+            </div>
+        </div>

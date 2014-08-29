@@ -5,7 +5,7 @@ layout: demo
 <!-- start:store detail -->
 <div class="row" id="store-detail">
     <div class="col-lg-12">
-        <div class="panel">
+        <div class="panel panel-success">
             <div class="panel-body">
                 <div class="row">
                   <div class="col-md-5">
@@ -15,13 +15,17 @@ layout: demo
                   &nbsp;
                   </div>
                   <div class="col-md-5" style="text-align: left;">
-                    {{page.section1-title}}
+                    <div class="panel-heading">
+                      <h1 class="panel-title">{{page.section1-title}}</h1>
+                    </div>
                     {{page.section1-body}}
                   </div>
                 </div>
                 <p>&nbsp;</p>
-                <div class="col-md-12" style="text-align:left;">
-                  <h1>Features</h1>
+                <!-- <div class="col-md-12" style="text-align:left;"> -->
+                  <div class="panel-heading">
+                    <h1 class="panel-title">Features</h1>
+                  </div>
                   <br>
                   <strong>Categories</strong>
                   <br>
@@ -30,11 +34,18 @@ layout: demo
                   <strong>Devices supported</strong>
                   <br>
                   <strong>Demo URL</strong>
-                </div>
+                <!-- </div> -->
                 <p>&nbsp;</p>
                 <div class="row">
-                    <div class="col-md-5">
-                      <h1>Screenshots</h1>
+                    <div class="col-md-12">
+                      <div class="panel-heading">
+                        <h1 class="panel-title">Screenshots</h1>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                      <p>&nbsp;</p>
                     </div>
                     <div class="col-md-6">
                         <div class="flexslider">
@@ -60,7 +71,10 @@ layout: demo
                 </div>
                 <div class="row">
                   <div class="col-md-12">
-                    <h1>Related Demos</h1>
+                    <div class="panel-heading">
+                      <h1 class="panel-title">Related Demos</h1>
+                    </div>
+
                   </div>
                 </div>
               </div>

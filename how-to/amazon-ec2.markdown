@@ -2,7 +2,7 @@
 layout: howto
 title:  "Amazon EC2"
 date:   2014-08-26 9:42:00am
-categories: howto
+categories: [howto]
 ---
 
 # Amazon EC2 Guide

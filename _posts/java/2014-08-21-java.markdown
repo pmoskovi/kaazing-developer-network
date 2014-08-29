@@ -2,7 +2,7 @@
 layout: post
 title:  "Everything about JAVA"
 date:   2014-08-21 16:15:00
-categories: java javascript demo
+categories: java javascript
 image: https://java.net/attachments/wiki_images/kjc/java-duke-logo.png
 ---
 

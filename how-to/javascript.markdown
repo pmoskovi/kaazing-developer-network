@@ -2,7 +2,7 @@
 layout: howto
 title:  "JavaScript"
 date:   2014-08-26 9:42:00am
-categories: howto
+categories: [howto]
 ---
 
 # JavaScript Guide
