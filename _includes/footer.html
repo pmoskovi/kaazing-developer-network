@@ -296,6 +296,18 @@
     <script src="{{ site.url }}/js/jquery-1.11.1.min.js"></script>
     <script src="{{ site.url }}/js/bootstrap.min.js"></script>
 
+    <!-- start:javascript for this page -->
+    <script src="{{site.url}}/assets/woothemes-FlexSlider/jquery.flexslider.js"></script>
+    <script>
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: "thumbnails"
+          });
+        });
+    </script>
+    <!-- end:javascript for this page -->
+
     <!-- javascript for Srikandi admin -->
     <script src="{{ site.url }}/js/themes.js"></script>
     <!-- end:javascript -->
