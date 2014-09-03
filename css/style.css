@@ -5,6 +5,64 @@
  Support : support@bismillahlab.web.id;
 */
 
+.heading-whykaazing {
+	color: white;
+}
+
+.text-whykaazing {
+	color: #f2e2af;
+}
+
+.container-client {
+	background: #9dd972;
+}
+
+.container-whykaazing {
+	background: url("../img/gray_bg.jpg");
+	text-align: left;
+}
+
+.fa-html5 {
+	color: orange;
+}
+
+.fa-html5:hover {
+	color: white;
+}
+
+.panel-client {
+	background: #f2e2af;
+	border-color: #81ce4a;
+}
+.panel-client:hover {
+	background-color: #81ce4a;
+	color: white;
+}
+
+#panel-html5:hover #icon-html5 {
+	color: white;
+}
+
+#panel-coffee:hover #icon-coffee {
+	color: white;
+}
+
+#panel-apple:hover #icon-apple {
+	color: white;
+}
+
+#panel-android:hover #icon-android {
+	color: white;
+}
+
+#panel-code:hover #icon-code {
+	color: white;
+}
+
+#panel-windows:hover #icon-windows {
+	color: white;
+}
+
 .tagline {
 	color: white;
 	text-align: center;
