@@ -75,7 +75,8 @@ var SNOW_RATE = 1000;
 
 var snowing = null;
 
-snowing = setInterval( function() {
+function doFlakeCreate()
+{
     var flake = null;
     var scale = null;
     var snow = null;
@@ -104,7 +105,29 @@ snowing = setInterval( function() {
             snow.removeChild( this.target );
         }
     } );
-}, SNOW_RATE );
+}
+
+snowing = setInterval( doFlakeCreate, SNOW_RATE );
+
+function doWindowFocus()
+{
+    if( snowing == null )
+    {
+        snowing = setInterval( doFlakeCreate, SNOW_RATE );
+    }
+}
+
+window.addEventListener( "blur", function() {
+    clearInterval( snowing );
+    snowing = null;
+} );
+
+window.addEventListener( "focus", function() {
+    if( snowing == null )
+    {
+        snowing = setInterval( doFlakeCreate, SNOW_RATE );
+    }
+} );
 </script>
 
 <div class="container-fluid container-client">
