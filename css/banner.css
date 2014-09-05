@@ -7,7 +7,7 @@ h4 {
     left: 10px;
     width: 267px;
     height: 185px;
-    background-image: url( "/img/banner/arduino.svg" );
+    background-image: url( "img/banner/arduino.svg" );
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -26,7 +26,7 @@ h4 {
 
     width: 207px;
     height: 234px;
-    background-image: url( "/img/banner/cloud.vertical.svg" );
+    background-image: url( "img/banner/cloud.vertical.svg" );
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -37,7 +37,7 @@ h4 {
     width: 77px;
     height: 100px;
     position: absolute;
-    background-image: url( '/img/banner/cursor.svg' );
+    background-image: url( 'img/banner/cursor.svg' );
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 77px 100px;
@@ -48,7 +48,7 @@ h4 {
 }
 
 .flake {
-    background-image: url( "/img/banner/snowflake.svg" );
+    background-image: url( "img/banner/snowflake.svg" );
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 145px 160px;
@@ -62,7 +62,7 @@ h4 {
     left: 70px;
     width: 142px;
     height: 215px;
-    background-image: url( "/img/banner/padlock.svg" );
+    background-image: url( "img/banner/padlock.svg" );
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -74,7 +74,7 @@ h4 {
     top: 200px;
     width: 120px;
     height: 120px;
-    background-image: url( "/img/banner/qrcode.small.png" );
+    background-image: url( "img/banner/qrcode.small.png" );
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
